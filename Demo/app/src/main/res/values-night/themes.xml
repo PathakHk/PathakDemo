@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyApp" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColor</item>
+        <item name="colorAccent">@color/assentColor</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+        <item name="errorTextAppearance">@style/error_appearance</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="@style/Theme.MyApp">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="error_appearance" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:textColor">#d32015</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="editTxtStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:importantForAutofill" tools:ignore="NewApi">noExcludeDescendants</item>
+        <item name="android:textColor">@color/grayDark80</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:background">@null</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="buttonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">@drawable/button_effect</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:textColor">@color/whiteTxt</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+</resources>

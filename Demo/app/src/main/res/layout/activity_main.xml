@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/youTubePlayerView"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
+            <TextView
+                android:id="@+id/tvTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/youTubePlayerView"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/blackTxt" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvTxt"
+                android:layout_marginTop="15dp"
+                android:text="Normal Video" />
+
+            <Button
+                android:id="@+id/buttonPDF"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button"
+                android:layout_marginTop="15dp"
+                android:text="PDF" />
+        </RelativeLayout>
+
+        <!-- <com.google.android.youtube.player.YouTubePlayerView
+             android:id="@+id/youTubePlayerView"
+             android:layout_width="match_parent"
+             android:layout_height="250dp" />-->
+
+    </LinearLayout>
+
+</layout>

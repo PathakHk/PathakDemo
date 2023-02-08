@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "514538539824",
+    "project_id": "my-app-adb3f",
+    "storage_bucket": "my-app-adb3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514538539824:android:7f01380254b3c4aba1d6f5",
+        "android_client_info": {
+          "package_name": "com.navkar.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514538539824-v1omviugdous2t3di37gdakm8kimcd6t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.navkar.myapp",
+            "certificate_hash": "703a09fc308c201258a03866461cdae08019ae97"
+          }
+        },
+        {
+          "client_id": "514538539824-8k9og0docrucc8oo641m188s8e809sj2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSyipG-P_Ou61L822zV9WAPLwSu1rtjI4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514538539824-8k9og0docrucc8oo641m188s8e809sj2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--<com.potyvideo.library.AndExoPlayerView
+                android:id="@+id/exoPlayerVideoView"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:andexo_aspect_ratio="aspect_16_9"
+                app:andexo_full_screen="true"
+                app:andexo_play_when_ready="true"
+                app:andexo_show_controller="true"
+                app:andexo_resize_mode="Fit" />
+
+            <VideoView
+                android:id="@+id/videoView"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true" />-->
+
+            <com.navkar.myapp.videoplayer.BetterVideoPlayer
+                android:id="@+id/bvp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:bvp_autoPlay="true"
+                app:bvp_captionColor="#e7e7e7"
+                app:bvp_captionSize="20sp"
+                app:bvp_gestureType="NoGesture"
+                app:bvp_hideControlsOnPlay="false"
+                app:bvp_loop="false"
+                app:bvp_showBottomProgressBar="false"
+                app:bvp_showTotalDuration="true"
+                app:bvp_title="Big Buck Bunny" />
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>

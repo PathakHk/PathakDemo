@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#DB5A42</color>
+    <color name="primaryDarkColor">#D84A31</color>
+    <color name="assentColor">#F5D2CC</color>
+
+    <color name="transparent">@android:color/transparent</color>
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="listColor">#FFFFFF</color>
+    <color name="blackColor">#000000</color>
+
+    <color name="grayDark80">#808080</color>
+    <color name="grayDark60">#9b9ea0</color>
+    <color name="grayDark40">#CCCCCC</color>
+    <color name="whiteTxt">#FFFFFF</color>
+    <color name="blackTxt">#000000</color>
+
+    <color name="bvp_subtitle_color">#FFFFFF</color>
+</resources>
