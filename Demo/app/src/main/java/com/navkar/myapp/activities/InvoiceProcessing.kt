@@ -2,6 +2,7 @@ package com.navkar.myapp.activities
 
 import android.content.Context
 import android.util.Log
+import android.widget.Toast
 import com.google.firebase.ml.vision.text.FirebaseVisionText
 import java.util.*
 
@@ -11,7 +12,7 @@ class InvoiceProcessing {
     fun processText(text: FirebaseVisionText, context: Context?): HashMap<String, String>? {
         val blocks = text.blocks
         if (blocks.size == 0) {
-            // Toast.makeText(context, "No Text :(", Toast.LENGTH_LONG).show()
+             Toast.makeText(context, "No Text :(", Toast.LENGTH_LONG).show()
             return null
         }
         val map = TreeMap<String, String>()
